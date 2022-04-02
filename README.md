@@ -46,7 +46,6 @@ Your users should be able to:
 - Frontend Mentor - [@rparias](https://www.frontendmentor.io/profile/rparias)
 - Twitter - [@rparias\_](https://twitter.com/rparias_)
 
-
 ## React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
