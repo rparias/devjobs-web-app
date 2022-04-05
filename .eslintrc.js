@@ -8,7 +8,8 @@ module.exports = {
     'standard',
     'plugin:react/recommended',
     'plugin:testing-library/react',
-    'plugin:jest-dom/recommended'
+    'plugin:jest-dom/recommended',
+    'plugin:storybook/recommended'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -20,7 +21,15 @@ module.exports = {
   plugins: ['react', 'testing-library', 'jest-dom'],
   rules: {
     semi: ['error', 'never'],
-    'space-before-function-paren': ['error', 'never'],
-    'react/react-in-jsx-scope': 'off'
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
+    ],
+    'react/react-in-jsx-scope': 'off',
+    'multiline-ternary': ['error', 'never']
   }
 }
