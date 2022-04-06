@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     --fw-reg: 400;
     --fw-bold: 600;
 
-    --clr-violet: #9e7f66;
+    --clr-violet: #5964E0;
     --clr-light-violet: #939BF4;
     --clr-very-dark-blue: #19202D;
     --clr-midnight: #121721;
